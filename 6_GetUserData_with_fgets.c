@@ -7,7 +7,7 @@ int main()
     printf("\n");
 
     char fullName[50];
-    printf("Enter your full name: ");
+    printf("Enter your full name: \n");
     fgets(fullName, 50, stdin); //Variable name, maximum number of characters, "Standard Input"
     printf("Welcome, %s", fullName);
 
