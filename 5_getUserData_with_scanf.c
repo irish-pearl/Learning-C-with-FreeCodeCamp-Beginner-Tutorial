@@ -11,7 +11,7 @@ int main()
     printf("FETCHING INTEGER\n");
 
     int age; //for this fetching, the user will give input/value to the int age instead of (we) declaring it
-    printf("Enter your age: ");
+    printf("Enter your age: \n");
     scanf("%d", &age); //Explanation below
 
     /*
@@ -32,7 +32,7 @@ int main()
     printf("FETCHING A DECIMAL\n");
 
     double mathGrade;
-    printf("What's your highest grade in Mathematics during High School? ");
+    printf("What's your highest grade in Mathematics during High School? \n");
     scanf("%lf", &mathGrade); //Use %lf when scanning double variable data typess
 
     printf("Nice! You got a %f", mathGrade);
@@ -62,7 +62,7 @@ int main()
     printf("FETCHING A CHARACTER\n");
 
     char name[50]; //The 50 inside the square brackets indicates the maximum characters that can be typed
-    printf("Hi cutie, what's your name? ");
+    printf("Hi cutie, what's your name? \n");
     scanf("%s", name);
 
     printf("What a pretty name for a pretty face, %s\n", name);
