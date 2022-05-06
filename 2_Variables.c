@@ -23,7 +23,8 @@ int main() //method main is important because this is what's gonna be executed
         %s for character with array of characters
         %c for single characters
         %d for integers
-        %f for decimals
+        %f for floats
+        %d for decimals
     */
 
     printf("\n");
