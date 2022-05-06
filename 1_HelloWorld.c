@@ -8,7 +8,16 @@ int main() //method main is important because this is what's gonna be executed
 {
     printf("Hello Cutie!\n"); // prints "Hello World" on the terminal
     printf("We got no line break! "); // the '\n' breaks the line so the next code would start on another line. In this case, we don't have a line break.
-    printf("I have one!\n"); // the line break '\n' makes the first printf part of the triangle stars on another line, instead of the same line
+    printf("I have one!\n"); // the line break '\n' makes the first printf part of the triangle stars on another line instead of the same line
+    
+    /*
+        \n new line
+        \t horizontal tab
+        \\ backslash
+        \b backspace
+        \' single quote
+        \" double quote
+    */
 
     // Let's draw a triangle shape
 
